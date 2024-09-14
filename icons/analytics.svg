@@ -1,0 +1,6 @@
+<!-- public/icons/analytics.svg -->
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" fill="none"/>
+  <circle cx="32" cy="32" r="30" stroke="#1F2937" stroke-width="2" fill="none"/>
+  <path d="M32 2 A30 30 0 0 1 62 32 L32 32 Z" fill="#3B82F6"/>
+</svg>
