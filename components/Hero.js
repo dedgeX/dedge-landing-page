@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 const Hero = () => {
   return (
     <section className="relative py-20 bg-pattern-hero" id="hero">

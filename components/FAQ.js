@@ -1,5 +1,3 @@
-import Testimonials from './Testimonials';
-
 const FAQ = () => {
     return (
       <>
@@ -16,7 +14,7 @@ const FAQ = () => {
               {/* Question 2 */}
               <div className="bg-secondary shadow-lg rounded-lg p-6">
                 <h4 className="text-xl font-semibold mb-2 text-primary">How do I start using dEdge?</h4>
-                <p className="text-secondary">Simply click on the "Launch dEdge on Telegram" button and follow the on-screen instructions to integrate the bot with your Telegram account.</p>
+                <p className="text-secondary">Simply click on the &ldquo;Launch dEdge on Telegram&rdquo; button and follow the on-screen instructions to integrate the bot with your Telegram account.</p>
               </div>
               {/* Question 3 */}
               <div className="bg-secondary shadow-lg rounded-lg p-6">

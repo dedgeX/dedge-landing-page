@@ -26,6 +26,8 @@ jobs:
         run: |
           npm run build
           npm run export
+          ls -R out
+          cat out/index.html
           touch out/.nojekyll
 
       - name: Deploy to GitHub Pages
