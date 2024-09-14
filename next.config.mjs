@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  assetPrefix: '',
+  basePath: '',
 //   assetPrefix: process.env.NODE_ENV === 'production' ? '/dedge-landing-page/' : '',
 //   basePath: process.env.NODE_ENV === 'production' ? '/dedge-landing-page' : '',
   images: {
