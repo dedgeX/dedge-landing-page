@@ -8,7 +8,7 @@ const BotDemo = () => {
         <div className="flex justify-center">
           <div className="relative w-full max-w-4xl rounded-lg overflow-hidden shadow-xl" style={{ paddingTop: '56.25%' }}>
             <Image
-              src="/dedgeBot.gif"
+              src="https://dedgex.github.io/dedge-landing-page/dedgeBot.gif"
               layout="fill"
               objectFit="contain"
               alt="DedgeBot Demo"
