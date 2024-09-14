@@ -1,0 +1,6 @@
+<!-- public/icons/alerts.svg -->
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" fill="none"/>
+  <path d="M32 6v6M32 52v6M6 32h6M52 32h6M18.343 18.343l4.243 4.243M41.414 41.414l4.243 4.243M18.343 45.657l4.243-4.243M41.414 22.586l4.243-4.243" stroke="#3B82F6" stroke-width="2"/>
+  <circle cx="32" cy="32" r="10" fill="#3B82F6"/>
+</svg>

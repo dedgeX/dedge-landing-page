@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cyan: #00FFFF;
+  --color-magenta: #FF00FF;
+  --color-dark: #1E1E1E;
+  --color-light: #F0F0F0;
+}
+
+@layer base {
+  body {
+    @apply text-[#F0F0F0] bg-[#1E1E1E];
+  }
+}
+
+@layer components {
+  .text-primary {
+    @apply text-[#F0F0F0];
+  }
+  .text-secondary {
+    @apply text-[#00FFFF];
+  }
+  .text-accent {
+    @apply text-[#FF00FF];
+  }
+  .hover-text {
+    @apply hover:text-[#00FFFF];
+  }
+  .bg-primary {
+    @apply bg-[#1E1E1E];
+  }
+  .bg-secondary {
+    @apply bg-[#2E2E2E];
+  }
+}
+
+body {
+  background-color: var(--color-dark);
+  background-image: 
+    linear-gradient(
+      135deg,
+      rgba(102, 5, 102, 0.2) 0%,
+      var(--color-dark) 100%
+    ),
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 100% 100%, 20px 20px, 20px 20px;
+  background-position: 0 0, 0 0, 0 0;
+  background-attachment: fixed;
+}
+
+nav {
+  background-color: rgba(30, 30, 30, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+/* Gradient text effect */
+.gradient-text {
+  background: linear-gradient(45deg, var(--color-cyan), var(--color-magenta));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
