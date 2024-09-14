@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  assetPrefix: 'https://dedgex.github.io/dedge-landing-page',
+  assetPrefix: 'https://dedgex.github.io/dedge-landing-page/',
   basePath: '/dedge-landing-page',
 //   assetPrefix: process.env.NODE_ENV === 'production' ? '/dedge-landing-page/' : '',
 //   basePath: process.env.NODE_ENV === 'production' ? '/dedge-landing-page' : '',
