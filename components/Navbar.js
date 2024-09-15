@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="bg-[#1E1E1E] shadow">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Image src="https://dedgex.github.io/dedge-landing-page/images/dedge-logo.jpeg" alt="dEdge Logo" width={40} height={40} />
+          <Image src="/images/dedge-logo.jpeg" alt="dEdge Logo" width={40} height={40} />
           <a href="#" className="text-xl font-bold text-[#D0D0D0] ml-2">dEdge</a>
         </div>
         <div className="flex items-center space-x-4">
