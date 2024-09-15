@@ -11,6 +11,7 @@
     "export": "next build && next export"
   },
   "dependencies": {
+    "@next/third-parties": "^14.2.11",
     "next": "^14.2.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
