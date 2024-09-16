@@ -6,6 +6,7 @@ import Testimonials from '../components/Testimonials'
 import FAQ from '../components/FAQ'
 import Footer from '../components/Footer'
 import BotDemo from '../components/BotDemo';
+import Newsletter from '../components/Newsletter';
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
         <BotDemo />
         <Testimonials />
         <FAQ />
+        <Newsletter />
       </main>
       <Footer />
     </div>
