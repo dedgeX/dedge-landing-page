@@ -12,7 +12,21 @@ const Navbar = () => {
           <a href="#features" className="text-[#D0D0D0] hover:text-white">Features</a>
           <a href="#testimonials" className="text-[#D0D0D0] hover:text-white">Testimonials</a>
           <a href="#faq" className="text-[#D0D0D0] hover:text-white">FAQ</a>
-          <a href="https://t.me/dEdge_solana_bot?start=3VYQjy" className="text-[#D0D0D0] hover:text-white bg-blue-500 px-4 py-2 rounded-lg transition duration-300 hover:bg-blue-600">Launch dEdge</a>
+          <a 
+            href="https://t.me/dEdge_solana_bot?start=3VYQjy" 
+            className="text-[#D0D0D0] hover:text-white bg-blue-500 px-4 py-2 rounded-lg transition duration-300 hover:bg-blue-600"
+            onClick={() => {
+              if (typeof window !== 'undefined' && window.gtag) {
+                window.gtag('event', 'click', {
+                  'event_category': 'Outbound Link',
+                  'event_label': 'Telegram Bot',
+                  'transport_type': 'beacon'
+                });
+              }
+            }}
+          >
+            Launch dEdge
+          </a>
         </div>
       </div>
     </nav>

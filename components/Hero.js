@@ -11,6 +11,15 @@ const Hero = () => {
         <a
           href="https://t.me/dEdge_solana_bot?start=3VYQjy"
           className="bg-blue-500 text-white px-8 py-4 rounded-lg text-lg font-semibold inline-flex items-center hover:bg-blue-600 transition duration-300"
+          onClick={() => {
+            if (typeof window !== 'undefined' && window.gtag) {
+              window.gtag('event', 'click', {
+                'event_category': 'Outbound Link',
+                'event_label': 'Launch dEdge on Telegram (Hero)',
+                'transport_type': 'beacon'
+              });
+            }
+          }}
         >
           🚀 Launch dEdge on Telegram
         </a>
