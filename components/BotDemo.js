@@ -36,7 +36,7 @@ const BotDemo = () => {
                 </div>
               </div>
               <Image
-                src={process.env.NODE_ENV === 'production' ? '/dedge-landing-page/dedgeBot.gif' : '/dedgeBot.gif'}
+                src={'/dedgeBot.gif'}
                 width={400}
                 height={600}
                 alt="DedgeBot Demo"
