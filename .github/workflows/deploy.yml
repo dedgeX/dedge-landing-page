@@ -22,6 +22,8 @@ jobs:
         run: npm run build
       - name: nojekyll
         run: touch out/.nojekyll
+      - name: Create CNAME file
+        run: echo "dedge.pro" > out/CNAME
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
