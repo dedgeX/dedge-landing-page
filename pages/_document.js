@@ -9,10 +9,10 @@ class MyDocument extends Document {
           <link rel="alternate" hrefLang="en" href="https://dedge.pro" />
         </Head>
         <body>
-          {/* Google Tag Manager (noscript) */}
-          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7DQB6MB"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-          {/* End Google Tag Manager (noscript) */}
+          <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7DQB6MB"
+            height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe>
+          </noscript>
           <Main />
           <NextScript />
         </body>
@@ -21,4 +21,4 @@ class MyDocument extends Document {
   }
 }
 
-export default MyDocument
+export default MyDocument;

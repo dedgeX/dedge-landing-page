@@ -12,13 +12,6 @@ export default function Home() {
   return (
     <div>
       <Head>
-        {/* Google Tag Manager */}
-        <script dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-T7DQB6MB');` }} />
-        {/* End Google Tag Manager */}
         <title>dEdge - Elevate Solana Trading with Our Wallet Analyzer</title>
         <meta name="description" content="dEdge: Your all-in-one Solana wallet analyzer and copytrading Telegram bot. Unlock unparalleled insights and take your crypto trading to the next level." />
         <meta name="keywords" content="dEdge, Solana, trading, crypto, wallet analyzer, copytrading, Telegram bot" />
