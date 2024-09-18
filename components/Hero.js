@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="container relative mx-auto px-6 text-center">
         <h1 className="text-5xl font-bold mb-6 text-primary">
           🚀 <span className="text-red-500 italic">dEdge: Your Ultimate Wallet Analyzer</span> <br />
-          <span className="text-yellow-500 font-bold">Maximize Your PnL and Trading Insights!</span>
+          <span className="text-yellow-500 font-bold">Maximize Your profit and Trading Insights!</span>
         </h1>
         <p className="text-xl text-secondary mb-10 max-w-2xl mx-auto">
           Unlock unparalleled insights and take your crypto trading to the next level with dEdge—your all-in-one Solana wallet analyzer and copytrading Telegram bot.
