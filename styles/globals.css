@@ -17,7 +17,7 @@
 
 @layer components {
   .text-primary {
-    @apply text-[#F0F0F0];
+    @apply text-[#FFFFFF]; /* Change to a lighter color */
   }
   .text-secondary {
     @apply text-[#00FFFF];
@@ -29,7 +29,7 @@
     @apply hover:text-[#00FFFF];
   }
   .bg-primary {
-    @apply bg-[#1E1E1E];
+    @apply bg-[#1E1E1E]; /* Ensure this has enough contrast with text */
   }
   .bg-secondary {
     @apply bg-[#2E2E2E];
