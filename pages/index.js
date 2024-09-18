@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>dEdge - Elevate Solana Trading with Our Wallet Analyzer</title>
         <meta name="description" content="dEdge: Your all-in-one Solana wallet analyzer and copytrading Telegram bot. Unlock unparalleled insights and take your crypto trading to the next level." />
-        <meta name="keywords" content="dEdge, Solana, trading, crypto, wallet analyzer, copytrading, Telegram bot" />
+        <meta name="keywords" content="dEdge, Solana, trading, crypto, wallet analyzer, copytrading, Telegram bot, pnl, wallet analysis" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="dEdge - Elevate Your Solana Trading Experience" />

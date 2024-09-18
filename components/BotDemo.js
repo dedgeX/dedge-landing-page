@@ -39,7 +39,7 @@ const BotDemo = () => {
                 src={'/dedgeBot.gif'}
                 width={400}
                 height={600}
-                alt="DedgeBot Demo"
+                alt="DedgeBot demonstrating real-time trading insights"
                 className="w-full h-auto"
               />
             </div>
