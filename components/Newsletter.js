@@ -7,9 +7,8 @@ const Newsletter = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('Subscribing...');
-
     try {
-      const response = await fetch('https://formspree.io/f/your_form_id', {
+      const response = await fetch('https://formspree.io/f/mgvwbjjq', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
