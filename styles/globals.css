@@ -63,3 +63,29 @@ nav {
   background-clip: text;
   color: transparent;
 }
+
+.text-bold {
+  font-weight: bold; /* Make text bold */
+}
+
+.text-dark {
+  color: #1E1E1E; /* Dark color for better contrast */
+}
+
+.text-light {
+  color: #494949; /* Light color for background */
+}
+
+/* Add this to your global CSS or component-specific CSS */
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.block {
+  display: block;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
