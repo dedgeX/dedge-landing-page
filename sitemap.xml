@@ -6,4 +6,22 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://dedge.pro/blog/degen-Edge-Tool</loc>
+    <lastmod>2024-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dedge.pro/blog/meet-dEdge</loc>
+    <lastmod>2024-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dedge.pro/blog/copytrading</loc>
+    <lastmod>2023-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
