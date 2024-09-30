@@ -22,7 +22,7 @@ const Blog = () => {
                   "name": "dEdge Team"
                 },
                 "datePublished": "2023-10-01",
-                "image": "/images/blog1.jpg",
+                "image": "/images/blog3.webp",
                 "description": "A comprehensive guide to copy trading in the cryptocurrency world."
               }
             `}
@@ -32,7 +32,7 @@ const Blog = () => {
         <main className="container mx-auto px-6 py-10 max-w-3xl"> {/* Set max width for generous margins */}
           <div className="relative mb-6">
           <Image 
-              src="/images/blog1.jpg" // Replace with your header image path
+              src="/images/blog3.webp" // Replace with your header image path
               alt="dEdge Blog Header"
               layout="responsive"
               width={1200}
@@ -51,6 +51,7 @@ const Blog = () => {
             <li className="text-gray-800 mb-4">Diversification: Easily diversify your trading strategy by following multiple traders.</li>
           </ul>
           <p className="text-gray-800 mb-4 text-left text-lg">However, it's crucial to understand that copy trading also carries risks and requires careful consideration and monitoring.</p>
+          <p className="text-gray-800 mb-4 text-left text-lg">For this tutorial, we are going to use Trojan bot, which can be accessed using the link: <a href="https://t.me/menelaus_trojanbot?start=r-im7777" className="text-blue-600 hover:underline">https://t.me/menelaus_trojanbot?start=r-im7777</a></p>
           
           <h2 className="text-2xl font-bold mt-6 text-gray-900 text-left">Activating and Accessing Copy Trading</h2>
           <p className="text-gray-800 mb-4 text-left text-lg">To get started with copy trading:</p>
@@ -68,6 +69,11 @@ const Blog = () => {
           <p className="text-gray-800 mb-4 text-left text-lg">Input the address of the trader you wish to copy. Ensure the wallet is known for legitimate trading activities.</p>
           <h3 className="text-lg font-semibold mt-4 text-gray-900 text-left">Configure Copy Trade Options:</h3>
           <p className="text-gray-800 mb-4 text-left text-lg">Decide whether to replicate sell orders and consider AutoSell integration based on your own profit targets and risk thresholds.</p>
+          <h3 className="text-lg font-semibold mt-4 text-gray-900 text-left">Set Transaction Parameters:</h3>
+          <ul className="list-disc ml-6 mb-4 text-left text-lg">
+            <li className="text-gray-800 mb-4">Buy and Sell Amounts: Define the capital allocation for copying buys and configure sell execution parameters.</li>
+            <li className="text-gray-800 mb-4">Gas and Slippage: Adjust these settings to optimize trade execution. Higher gas fees might be necessary for quicker synchronization with active traders.</li>
+          </ul>
   
           <h2 className="text-2xl font-bold mt-6 text-gray-900 text-left">Managing and Monitoring Copy Trades</h2>
           <p className="text-gray-800 mb-4 text-left text-lg">Effective management of your copy trades is crucial for success:</p>
@@ -76,19 +82,38 @@ const Blog = () => {
   
           <h2 className="text-2xl font-bold mt-6 text-gray-900 text-left">Copy Trading Limitations</h2>
           <p className="text-gray-800 mb-4 text-left text-lg">Understanding the limitations of copy trading is essential:</p>
-          
+          <ul className="list-disc ml-6 mb-4 text-left text-lg">
+            <li className="text-gray-800 mb-4">Unsuitable Strategies: Not all trading strategies or wallet types are suitable for copying. Avoid copying wallets known for sniping or using custom trading programs.</li>
+            <li className="text-gray-800 mb-4">Execution Differences: Your trades may not execute at exactly the same time or price as the copied trader. Factors like network congestion, slippage, and gas fees can affect execution.</li>
+            <li className="text-gray-800 mb-4">Risk of Losses: Copy trading does not guarantee profits. You can still incur losses. Always use proper risk management techniques.</li>
+          </ul>
+  
           <h2 className="text-2xl font-bold mt-6 text-gray-900 text-left">FAQ and Troubleshooting</h2>
           <p className="text-gray-800 mb-4 text-left text-lg">Common issues and their solutions:</p>
+          <h3 className="text-lg font-semibold mt-4 text-gray-900 text-left">Slippage Exceeded:</h3>
+          <ul className="list-disc ml-6 mb-4 text-left text-lg">
+            <li className="text-gray-800 mb-4">Gradually increase slippage settings in 3-5% increments until the issue resolves.</li>
+            <li className="text-gray-800 mb-4">Then, gradually decrease by 1-2% to find the optimal setting.</li>
+          </ul>
+          {/* Add more FAQ items here */}
   
           <h2 className="text-2xl font-bold mt-6 text-gray-900 text-left">Introducing dEdge: Elevating Your Copy Trading Experience</h2>
-          <p className="text-gray-800 mb-4 text-left text-lg">For traders seeking a more sophisticated and user-friendly copy trading experience, dEdge offers a comprehensive solution.</p>
+          <p className="text-gray-800 mb-4 text-left text-lg">For traders seeking a more sophisticated and user-friendly copy trading experience, dEdge offers a comprehensive solution. dEdge provides advanced features and a robust platform designed to optimize your copy trading strategies.</p>
+          <p className="text-gray-800 mb-4 text-left text-lg">Key benefits of using dEdge:</p>
+          <ul className="list-disc ml-6 mb-4 text-left text-lg">
+            <li className="text-gray-800 mb-4">Advanced Analytics: Get in-depth insights into trader performance and market trends.</li>
+            <li className="text-gray-800 mb-4">User-Friendly Interface: Easily navigate and understand your copy-wallets with an intuitive summary.</li>
+            <li className="text-gray-800 mb-4">Community Insights: Access a network of traders and share strategies.</li>
+          </ul>
           <p className="text-gray-800 mb-4 text-left text-lg">To get started with dEdge and take your copy trading to the next level, check out our official channels:</p>
           <ul className="list-disc ml-6 mb-4 text-left text-lg">
-            <li className="text-gray-800 mb-4">Bot: <a href="https://t.me/dEdge_solana_bot">https://t.me/dEdge_solana_bot</a></li>
-            <li className="text-gray-800 mb-4">Telegram Group: <a href="https://t.me/dEdge_solana">https://t.me/dEdge_solana</a></li>
-            <li className="text-gray-800 mb-4">Twitter: <a href="https://x.com/dEdge_Solana">https://x.com/dEdge_Solana</a></li>
-            <li className="text-gray-800 mb-4">Website: <a href="https://dedge.pro/">https://dedge.pro/</a></li>
+            <li className="text-gray-800 mb-4">Bot: <a href="https://t.me/dEdge_solana_bot" className="text-blue-600 hover:underline">https://t.me/dEdge_solana_bot</a></li>
+            <li className="text-gray-800 mb-4">Telegram Group: <a href="https://t.me/dEdge_solana" className="text-blue-600 hover:underline">https://t.me/dEdge_solana</a></li>
+            <li className="text-gray-800 mb-4">Twitter: <a href="https://x.com/dEdge_Solana" className="text-blue-600 hover:underline">https://x.com/dEdge_Solana</a></li>
+            <li className="text-gray-800 mb-4">Website: <a href="https://dedge.pro/" className="text-blue-600 hover:underline">https://dedge.pro/</a></li>
+            <li className="text-gray-800 mb-4">Trojan on Solana: <a href="https://t.me/menelaus_trojanbot?start=r-im7777" className="text-blue-600 hover:underline">https://t.me/menelaus_trojanbot?start=r-im7777</a></li>
           </ul>
+          <p className="text-gray-800 mb-4 text-left text-lg">Join the dEdge community today and unlock the full potential of your copy trading strategies!</p>
                   {/* Author Section */}
         <div className="mt-10 p-4 bg-gray-100 rounded-lg shadow-md">
           <h3 className="font-semibold text-gray-900">About the Author</h3>

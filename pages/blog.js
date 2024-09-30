@@ -26,6 +26,11 @@ const Blog = () => {
             <h2 className="text-xl font-bold text-dark">Meet dEdge: the sophisticated wallet analysis tool on Solana</h2>
             <p className="text-light">Discover how dEdge is revolutionizing Solana trading with advanced wallet analysis.</p>
           </Link>
+          <Link href="/copytrading" className="block p-4 border rounded-lg shadow-lg hover:bg-gray-100">
+            <Image src="/images/blog3.webp" alt="Thumbnail" width={340} height={100} className="mb-4 rounded-t-lg" />
+            <h2 className="text-xl font-bold text-dark">Comprehensive Guide to Copy Trading</h2>
+            <p className="text-light">Learn about copy trading in the cryptocurrency world and how to get started with dEdge.</p>
+          </Link>
         </div>
       </main>
     </div>
