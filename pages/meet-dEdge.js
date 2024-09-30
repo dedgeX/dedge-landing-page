@@ -11,7 +11,7 @@ const Blog = () => {
           <meta name="keywords" content="dEdge, Solana, wallet analysis, trading tools, crypto trading" /> {/* Added keywords for SEO */}
           <meta property="og:title" content="Meet dEdge: the sophisticated wallet analysis tool on Solana" /> {/* Open Graph title */}
           <meta property="og:description" content="Explore dEdge's features that enhance your trading experience on Solana." /> {/* Open Graph description */}
-          <meta property="og:image" content="/images/blog2.webp" /> {/* Open Graph image */}
+          <meta property="og:image" content="https://dedge.pro/images/blog2.webp" /> {/* Open Graph image */}
           <meta property="og:url" content="https://dedge.pro/meet-dEdge" /> {/* Open Graph URL */}
           <link rel="canonical" href="https://dedge.pro/meet-dEdge" /> {/* Canonical link */}
           <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet" />
@@ -25,9 +25,10 @@ const Blog = () => {
                 "@type": "Organization",
                 "name": "dEdge Team"
               },
-              "datePublished": "2024-20-09",
-              "image": "/images/blog1.webp",
-              "description": "Discover dEdge, the ultimate tool for Solana traders to analyze wallet performance and trading metrics."
+              "datePublished": "2024-09-20",
+              "image": "https://dedge.pro/images/blog1.webp",
+              "description": "Discover dEdge, the ultimate tool for Solana traders to analyze wallet performance and trading metrics.",
+              "url": "https://dedge.pro/meet-dEdge"
             }
           `}
         </script>
