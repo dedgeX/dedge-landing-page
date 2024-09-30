@@ -10,11 +10,11 @@ const Blog = () => {
         <meta name="description" content="Introducing dEdge: The Ultimate Degen Edge Tool for Solana Traders." />
         <meta name="keywords" content="dEdge, Solana, trading tool, cryptocurrency, wallet analysis" /> {/* Updated keywords */}
         <meta name="author" content="dEdge Team" />
-        <link rel="canonical" href="https://dedge.pro/dEdge-Edge-Tool" />
+        <link rel="canonical" href="https://dedge.pro/degen-Edge-Tool" />
         <meta property="og:title" content="dEdge - The Ultimate Degen Edge Tool for Solana Traders" /> {/* Open Graph title */}
         <meta property="og:description" content="Discover dEdge, the ultimate tool for Solana traders to analyze wallet performance and trading metrics." /> {/* Open Graph description */}
-        <meta property="og:image" content="/images/blog1.webp" /> {/* Open Graph image */}
-        <meta property="og:url" content="https://dedge.pro/dEdge-Edge-Tool" /> {/* Open Graph URL */}
+        <meta property="og:image" content="https://dedge.pro/images/blog1.webp" /> {/* Open Graph image */}
+        <meta property="og:url" content="https://dedge.pro/degen-Edge-Tool" /> {/* Open Graph URL */}
         <meta property="og:type" content="website" /> {/* Open Graph type */}
         <script type="application/ld+json"> {/* Enhanced structured data */}
           {`
@@ -26,8 +26,8 @@ const Blog = () => {
                 "@type": "Organization",
                 "name": "dEdge Team"
               },
-              "datePublished": "2024-20-09",
-              "image": "/images/blog1.webp",
+              "datePublished": "2024-09-20",
+              "image": "https://dedge.pro/images/blog1.webp",
               "description": "Discover dEdge, the ultimate tool for Solana traders to analyze wallet performance and trading metrics."
             }
           `}
