@@ -8,7 +8,7 @@ const Footer = () => {
               href="https://t.me/dEdge_Solana" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="text-secondary hover:text-primary transition duration-300"
+              className="text-purple-150 hover:text-primary transition duration-300 underline"
             >
               Join our Telegram Group
             </a>

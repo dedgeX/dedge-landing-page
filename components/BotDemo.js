@@ -25,6 +25,21 @@ const BotDemo = () => {
                 Real-time market insights
               </li>
             </ul>
+            <a
+              href="https://t.me/dEdge_solana_bot?start=3VYQjy"
+              className="inline-block mt-6 bg-purple-700 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-purple-500 transition duration-300"
+              onClick={() => {
+                if (typeof window !== 'undefined' && window.gtag) {
+                  window.gtag('event', 'click_telegram', {
+                    'event_category': 'Outbound Link',
+                    'event_label': 'Test Now! (BotDemo)',
+                    'transport_type': 'beacon'
+                  });
+                }
+              }}
+            >
+              🚀 Test Now!
+            </a>
           </div>
           <div className="md:w-1/2 max-w-md mt-8 md:mt-0">
             <div className="bg-gray-800 rounded-lg shadow-xl overflow-hidden">

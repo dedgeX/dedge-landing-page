@@ -31,7 +31,7 @@ const Newsletter = () => {
     <section className="py-20 bg-pattern-newsletter">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-6 text-primary">Stay Ahead of the Game</h2>
-        <p className="text-xl text-secondary mb-10 max-w-2xl mx-auto">
+        <p className="text-xl text-purple-200 mb-10 max-w-2xl mx-auto">
           Don't miss out on the hottest copytrading wallets and Solana network updates! Subscribe to our newsletter and gain a competitive edge in the fast-paced world of crypto trading.
         </p>
         <form onSubmit={handleSubmit} className="max-w-md mx-auto">
