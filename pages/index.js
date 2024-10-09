@@ -55,7 +55,6 @@ export default function Home() {
     ]
   },
   "applicationSubCategory": "Financial Tool and Trading Bot",
-  "browserRequirements": "Telegram Messenger Required",
   "requirements": "Active Telegram Account",
   "softwareVersion": "1.0",
   "author": {
