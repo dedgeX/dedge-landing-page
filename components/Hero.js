@@ -10,7 +10,7 @@ const Hero = () => {
           Unlock unparalleled insights and take your crypto trading to the next level with dEdge—your all-in-one Solana wallet analyzer and copytrading Telegram bot.
         </p>
         <a
-          href="https://t.me/dEdge_solana_bot?start=3VYQjy"
+          href="https://t.me/dEdge_solana_bot?start=51733"
           className="bg-purple-700 text-white px-8 py-4 rounded-lg text-lg font-semibold inline-flex items-center hover:bg-purple-500 transition duration-300"
           onClick={() => {
             if (typeof window !== 'undefined' && window.gtag) {

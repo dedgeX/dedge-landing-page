@@ -23,7 +23,7 @@ const Navbar = () => {
             href="/blog" 
             className="text-[#D0D0D0] hover:text-white">Blog</Link>
           <Link 
-            href="https://t.me/dEdge_solana_bot?start=3VYQjy" 
+            href="https://t.me/dEdge_solana_bot?start=51733" 
             className="text-white font-bold bg-purple-500 px-4 py-2 rounded-lg transition duration-300 hover:bg-purple-600"
             onClick={() => {
               if (typeof window !== 'undefined' && window.gtag) {

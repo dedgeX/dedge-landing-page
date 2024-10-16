@@ -26,7 +26,7 @@ const BotDemo = () => {
               </li>
             </ul>
             <a
-              href="https://t.me/dEdge_solana_bot?start=3VYQjy"
+              href="https://t.me/dEdge_solana_bot?start=51733"
               className="inline-block mt-6 bg-purple-700 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-purple-500 transition duration-300"
               onClick={() => {
                 if (typeof window !== 'undefined' && window.gtag) {
