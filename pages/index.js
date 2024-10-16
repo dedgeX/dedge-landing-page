@@ -7,6 +7,7 @@ import FAQ from '../components/FAQ'
 import Footer from '../components/Footer'
 import BotDemo from '../components/BotDemo';
 import Newsletter from '../components/Newsletter';
+import Pricing from '../components/Pricing'
 
 export default function Home() {
   return (
@@ -96,6 +97,7 @@ export default function Home() {
         <Hero />
         <Features />
         <BotDemo />
+        <Pricing />
         <Testimonials />
         <FAQ />
         <Newsletter />
