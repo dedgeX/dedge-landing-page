@@ -5,7 +5,7 @@ const PricingPage = () => {
     {
       name: 'Premium Edge',
       description: 'Perfect for active traders looking to enhance their analysis capabilities with more searches and advanced metrics.',
-      price: '0.5 SOL',
+      price: '0.2 SOL',
       features: [
         'Enhanced search capabilities',
         'Advanced metrics',
@@ -52,7 +52,20 @@ const PricingPage = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {tiers.map((tier, index) => (
-            <div key={index} className="bg-secondary shadow-lg rounded-lg p-6">
+            <a 
+              key={index} 
+              href="https://t.me/dEdge_solana_bot?start=51733"
+              className="bg-secondary shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300 border-2 border-transparent hover:border-purple-500"
+              onClick={() => {
+                if (typeof window !== 'undefined' && window.gtag) {
+                  window.gtag('event', 'click_tier', {
+                    'event_category': 'Pricing',
+                    'event_label': tier.name,
+                    'transport_type': 'beacon'
+                  });
+                }
+              }}
+            >
               <h2 className="text-2xl font mb-4 text-primary">{tier.name}</h2>
               <p className="text-purple-200 mb-4">{tier.description}</p>
               <p className="text-4xl font-bold text-primary mb-6">{tier.price}</p>
@@ -64,7 +77,7 @@ const PricingPage = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </a>
           ))}
         </div>
         <PricingTable />
