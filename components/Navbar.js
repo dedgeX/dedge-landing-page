@@ -17,7 +17,6 @@ const Navbar = () => {
         </div>
         <div className="flex items-center space-x-4">
           <Link href="#features" className="text-[#D0D0D0] hover:text-white">Features</Link>
-          <Link href="#testimonials" className="text-[#D0D0D0] hover:text-white">Testimonials</Link>
           <Link href="#faq" className="text-[#D0D0D0] hover:text-white">FAQ</Link>
           <Link href="#pricing" className="text-[#D0D0D0] hover:text-white">Pricing</Link>
           <Link 
@@ -38,7 +37,7 @@ const Navbar = () => {
               }
             }}
           >
-            API Docs
+            APIs
           </Link>
           <Link 
             href="https://t.me/dEdge_solana_bot?start=51733" 
