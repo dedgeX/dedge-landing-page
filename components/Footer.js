@@ -12,6 +12,14 @@ const Footer = () => {
             >
               Join our Telegram Group
             </a>
+            <a 
+              href="https://x.com/dEdge_Solana" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-purple-150 hover:text-primary transition duration-300 underline ml-4"
+            >
+              Follow us on X
+            </a>
           </div>
         </div>
       </footer>

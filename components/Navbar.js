@@ -19,9 +19,27 @@ const Navbar = () => {
           <Link href="#features" className="text-[#D0D0D0] hover:text-white">Features</Link>
           <Link href="#testimonials" className="text-[#D0D0D0] hover:text-white">Testimonials</Link>
           <Link href="#faq" className="text-[#D0D0D0] hover:text-white">FAQ</Link>
+          <Link href="#pricing" className="text-[#D0D0D0] hover:text-white">Pricing</Link>
           <Link 
             href="/blog" 
             className="text-[#D0D0D0] hover:text-white">Blog</Link>
+          <Link 
+            href="https://dedge-1.gitbook.io/dedge-sol-analyzer-api" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#D0D0D0] hover:text-white"
+            onClick={() => {
+              if (typeof window !== 'undefined' && window.gtag) {
+                window.gtag('event', 'click_api_docs_navbar', {
+                  'event_category': 'Outbound Link',
+                  'event_label': 'API Documentation',
+                  'transport_type': 'beacon'
+                });
+              }
+            }}
+          >
+            API Docs
+          </Link>
           <Link 
             href="https://t.me/dEdge_solana_bot?start=51733" 
             className="text-white font-bold bg-purple-500 px-4 py-2 rounded-lg transition duration-300 hover:bg-purple-600"

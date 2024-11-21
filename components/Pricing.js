@@ -46,7 +46,7 @@ const PricingPage = () => {
   ];
 
   return (
-    <section className="py-20 bg-pattern-pricing">
+    <section id="pricing" className="py-20 bg-pattern-pricing">
       <div className="container mx-auto px-6">
         <h1 className="text-4xl font-bold text-center mb-12 text-primary">dEdge Subscription Benefits</h1>
         
