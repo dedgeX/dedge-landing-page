@@ -37,7 +37,7 @@ const Navbar = () => {
               }
             }}
           >
-            APIs
+            Docs
           </Link>
           <Link 
             href="https://t.me/dEdge_solana_bot?start=51733" 

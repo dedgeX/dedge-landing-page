@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 import BotDemo from '../components/BotDemo';
 import Newsletter from '../components/Newsletter';
 import Pricing from '../components/Pricing'
-
+import DocsSection from '../components/Docs'
 export default function Home() {
   return (
     <div>
@@ -98,6 +98,7 @@ export default function Home() {
         <Features />
         <BotDemo />
         <Pricing />
+        <DocsSection />
         <Testimonials />
         <FAQ />
         <Newsletter />
