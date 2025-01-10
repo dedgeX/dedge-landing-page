@@ -3,6 +3,18 @@ import PricingTable from './PricingTable'
 const PricingPage = () => {
   const tiers = [
     {
+      name: 'Trial Edge',
+      description: 'Try out our Premium features for 3 days to experience the power of enhanced trading analysis.',
+      price: '0.1 SOL',
+      features: [
+        'Enhanced search capabilities',
+        'Advanced metrics',
+        'Priority support',
+        'Access to core features',
+        '3-day access'
+      ]
+    },
+    {
       name: 'Premium Edge',
       description: 'Perfect for active traders looking to enhance their analysis capabilities with more searches and advanced metrics.',
       price: '0.2 SOL',
@@ -50,7 +62,7 @@ const PricingPage = () => {
       <div className="container mx-auto px-6">
         <h1 className="text-4xl font-bold text-center mb-12 text-primary">dEdge Subscription Benefits</h1>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
           {tiers.map((tier, index) => (
             <a 
               key={index} 

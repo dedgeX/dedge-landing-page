@@ -9,17 +9,18 @@ import BotDemo from '../components/BotDemo';
 import Newsletter from '../components/Newsletter';
 import Pricing from '../components/Pricing'
 import DocsSection from '../components/Docs'
+import WalletTools from '../components/WalletTools'
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>dEdge - Advanced Solana Wallet Analyzer and Copytrading Bot</title>
-        <meta name="description" content="dEdge: Your all-in-one Solana wallet analyzer and copytrading Telegram bot. Gain unparalleled insights and optimize your crypto trading strategy." />
-        <meta name="keywords" content="dEdge, Solana, trading, crypto, wallet analyzer, copytrading, Telegram bot, PNL, wallet analysis, wallet PnL, web3, cryptocurrency, memecoin" />
+        <title>dEdge - Professional Solana Wallet Analyzer & Tracking Tool</title>
+        <meta name="description" content="Analyze any Solana wallet with dEdge's professional wallet analyzer. Track performance metrics, discover top wallets, and get real-time insights for better trading decisions." />
+        <meta name="keywords" content="wallet analyzer, Solana wallet tracker, crypto wallet analysis, wallet finder, wallet tracking tool, wallet performance metrics, Solana trading, cryptocurrency analysis" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="dEdge - Advanced Solana Wallet Analyzer and Copytrading Bot" />
-        <meta property="og:description" content="Gain unparalleled insights and optimize your crypto trading strategy with dEdge, your all-in-one Solana wallet analyzer and copytrading bot on Telegram." />
+        <meta property="og:title" content="dEdge - Professional Solana Wallet Analyzer & Tracking Tool" />
+        <meta property="og:description" content="Discover and analyze top-performing Solana wallets. Get detailed metrics, track wallet performance, and find profitable trading opportunities with dEdge's advanced wallet analyzer." />
         <meta property="og:image" content="/og-image.jpg" />
         <meta property="og:url" content="https://dedge.pro" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -96,6 +97,7 @@ export default function Home() {
       <main>
         <Hero />
         <Features />
+        <WalletTools />
         <BotDemo />
         <Pricing />
         <DocsSection />
