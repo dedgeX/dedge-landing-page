@@ -28,69 +28,69 @@ export default function Home() {
         <meta name="twitter:site" content="@dEdge_Solana" />
         <link rel="canonical" href="https://dedge.pro" />
         <script type="application/ld+json">
-          {JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "dEdge",
-  "applicationCategory": "FinanceApplication",
-  "operatingSystem": "Telegram",
-  "description": "dEdge is an all-in-one advanced Solana wallet analyzer and copytrading Telegram bot.",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock"
-  },
-  "url": "https://dedge.pro/",
-  "sameAs": [
-    "https://t.me/dEdge_Solana",
-    "https://t.me/dEdge_solana_bot",
-    "https://x.com/dEdge_Solana"
-  ],
-  "provider": {
-    "@type": "Organization",
+          {`{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
     "name": "dEdge",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Telegram",
+    "description": "dEdge is an all-in-one advanced Solana wallet analyzer and copytrading Telegram bot.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
     "url": "https://dedge.pro/",
     "sameAs": [
       "https://t.me/dEdge_Solana",
+      "https://t.me/dEdge_solana_bot",
       "https://x.com/dEdge_Solana"
-    ]
-  },
-  "applicationSubCategory": "Financial Tool and Trading Bot",
-  "requirements": "Active Telegram Account",
-  "softwareVersion": "1.0",
-  "author": {
-    "@type": "Organization",
-    "name": "dEdge",
-    "url": "https://dedge.pro/"
-  },
-  "potentialAction": {
-    "@type": "UseAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "https://t.me/dEdge_solana_bot",
-      "actionPlatform": ["https://schema.org/TelegramPlatform"]
-    }
-  },
-  "about": {
-    "@type": "Thing",
-    "name": "Solana Trading Bot",
-    "description": "Advanced Solana wallet analyzer and copytrading solution on Telegram"
-  },
-  "featureList": [
-    "Real-time Solana wallet analysis",
-    "Automated copytrading",
-    "Trading edge, signals and alerts",
-    "Advanced wallet mapping and tracking",
-    "Professional-grade analysis tools"
-  ],
-  "keywords": "Solana, Trading Bot, Wallet Analyzer, Copy Trading, Crypto Trading, Telegram Bot, dEdge, Cryptocurrency, Solana Trading, memecoins, wallet PnL, wallet analysis",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://dedge.pro/"
-  },
-  "isAccessibleForFree": true
-})}
+    ],
+    "provider": {
+      "@type": "Organization",
+      "name": "dEdge",
+      "url": "https://dedge.pro/",
+      "sameAs": [
+        "https://t.me/dEdge_Solana",
+        "https://x.com/dEdge_Solana"
+      ]
+    },
+    "applicationSubCategory": "Financial Tool and Trading Bot",
+    "requirements": "Active Telegram Account",
+    "softwareVersion": "1.0",
+    "author": {
+      "@type": "Organization",
+      "name": "dEdge",
+      "url": "https://dedge.pro/"
+    },
+    "potentialAction": {
+      "@type": "UseAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://t.me/dEdge_solana_bot",
+        "actionPlatform": ["https://schema.org/TelegramPlatform"]
+      }
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "Solana Trading Bot",
+      "description": "Advanced Solana wallet analyzer and copytrading solution on Telegram"
+    },
+    "featureList": [
+      "Real-time Solana wallet analysis",
+      "Automated copytrading",
+      "Trading edge, signals and alerts",
+      "Advanced wallet mapping and tracking",
+      "Professional-grade analysis tools"
+    ],
+    "keywords": "Solana, Trading Bot, Wallet Analyzer, Copy Trading, Crypto Trading, Telegram Bot, dEdge, Cryptocurrency, Solana Trading, memecoins, wallet PnL, wallet analysis",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://dedge.pro/"
+    },
+    "isAccessibleForFree": true
+  }`}
         </script>
       </Head>
       <Navbar />
