@@ -14,9 +14,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>dEdge - Professional Solana Wallet Analyzer & Tracking Tool</title>
-        <meta name="description" content="Analyze any Solana wallet with dEdge's professional wallet analyzer. Track performance metrics, discover top wallets, and get real-time insights for better trading decisions." />
-        <meta name="keywords" content="wallet analyzer, Solana wallet tracker, crypto wallet analysis, wallet finder, wallet tracking tool, wallet performance metrics, Solana trading, cryptocurrency analysis" />
+        <title>Find the Best Wallets to Copy Trade on Solana | dEdge – #1 Copytrading Tool</title>
+        <meta name="description" content="Discover the best wallets to copy trade on Solana with dEdge. Analyze wallet performance, track top traders, and start earning effortlessly. Join the #1 copy trading tool today!" />
+        <meta name="keywords" content="wallet analyzer, Solana wallet tracker, crypto wallet analysis, wallet finder, wallet tracking tool, wallet performance metrics, Solana trading, cryptocurrency analysis, copytrading, copy trade" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="dEdge - Professional Solana Wallet Analyzer & Tracking Tool" />
@@ -97,13 +97,12 @@ export default function Home() {
       <main>
         <Hero />
         <Features />
-        <WalletTools />
+        {/* <WalletTools /> */}
         <BotDemo />
-        <Pricing />
-        <DocsSection />
-        <Testimonials />
+        {/* <Pricing /> */}
+        {/* <DocsSection /> */}
+        {/* <Testimonials /> */}
         <FAQ />
-        <Newsletter />
       </main>
       <Footer />
     </div>

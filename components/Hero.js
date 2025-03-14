@@ -2,13 +2,12 @@ const Hero = () => {
   return (
     <section className="relative py-20 bg-pattern-hero" id="hero">
       <div className="container relative mx-auto px-6 text-center">
-        <h1 className="text-5xl font-bold mb-6 text-primary">
-          <span className="text-purple-150 italic">dEdge: Your Ultimate Wallet Analyzer</span> <br />
-          <span className="text-purple-150 font-bold">Maximize Your profit and Trading Insights!</span>
+        <h1 className="text-5xl font-bold mb-4 text-primary text-purple-150 italic">
+          Looking for the Best Wallets to Copy Trade on Solana?
         </h1>
-        <p className="text-xl text-purple-400 mb-10 max-w-2xl mx-auto">
-          Unlock unparalleled insights and take your crypto trading to the next level with dEdge—your all-in-one Solana wallet analyzer and copytrading Telegram bot.
-        </p>
+        <h2 className="text-3xl font-bold mb-10 text-purple-150">
+          Trade Smarter, Not Harder. Find the Best Traders to Copy Trade. The Easiest Way to Analyze and Track Wallets on Solana.
+        </h2>
         <a
           href="https://t.me/dEdge_solana_bot?start=51733"
           className="bg-purple-700 text-white px-8 py-4 rounded-lg text-lg font-semibold inline-flex items-center hover:bg-purple-500 transition duration-300"
@@ -22,7 +21,7 @@ const Hero = () => {
             }
           }}
         >
-          🚀 Launch dEdge on Telegram
+          Launch dEdge on Telegram
         </a>
       </div>
     </section>
