@@ -2,9 +2,10 @@ const Hero = () => {
   return (
     <section className="relative py-20 bg-pattern-hero" id="hero">
       <div className="container relative mx-auto px-6 text-center">
-        <h1 className="text-5xl font-bold mb-4 text-primary text-purple-150">
+        <h1 className="text-5xl font-bold mb-8 text-primary text-purple-150">
           Looking for the Best Wallets to Copy Trade on Solana?
         </h1>
+        
         <h2 className="text-3xl font-bold mb-10 text-purple-150">
           Trade Smarter, Not Harder. Find the Best Traders to Copy Trade. The Easiest Way to Analyze and Track Wallets on Solana.
         </h2>

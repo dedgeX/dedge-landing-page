@@ -6,6 +6,7 @@ const Navbar = () => {
     <nav className="bg-[#1E1E1E] shadow">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center">
+          {/* 
           <Image 
             src="/images/dedge-logo.jpeg" 
             alt="dEdge Logo - Your Ultimate Solana Wallet Analyzer" 
@@ -14,13 +15,11 @@ const Navbar = () => {
             className="transition-transform duration-300"
           />
           <Link href="/" className="text-xl font-bold text-[#D0D0D0] hidden ml-2 md:block">dEdge</Link>
+          */}
         </div>
         <div className="flex items-center space-x-4">
           <Link href="#features" className="text-[#D0D0D0] hover:text-white">Features</Link>
           <Link href="#faq" className="text-[#D0D0D0] hover:text-white">FAQ</Link>
-          <Link 
-            href="/blog" 
-            className="text-[#D0D0D0] hover:text-white">Blog</Link>
           <Link 
             href="https://dedge-1.gitbook.io/dedge-sol-analyzer-api" 
             target="_blank"

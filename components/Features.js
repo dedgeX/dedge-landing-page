@@ -1,9 +1,9 @@
 const Features = () => {
     return (
-      <section className="relative py-20 bg-pattern" id="features">
+      <section className="relative py-12 bg-pattern" id="features">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-12 text-primary">All You Need to Make Money with Copy Trading</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <h2 className="text-4xl font-bold text-center mb-6 text-primary">All You Need to Make Money with Copy Trading</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Feature 1 */}
             <div className="bg-secondary shadow-lg rounded-lg p-6 text-center">
               <h3 className="text-xl font-semibold mb-4 text-primary">Wallet Finder</h3>
