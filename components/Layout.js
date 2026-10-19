@@ -62,6 +62,19 @@ export default function Layout({
         <title>{title} | dEdge</title>
         <meta name="description" content={description} />
         <link rel="canonical" href={canonical} />
+        <link
+          rel="describedby"
+          href={site.origin + "/llms.txt"}
+          type="text/plain"
+        />
+        {!noindex && (
+          <link
+            rel="alternate"
+            type="text/markdown"
+            href={canonical + "index.md"}
+            title="Markdown version"
+          />
+        )}
         <meta
           name="robots"
           content={noindex ? "noindex,follow" : "index,follow"}
@@ -154,6 +167,7 @@ export default function Layout({
           <a href={site.pricing}>Pricing</a>
           <a href={site.contact}>Contact</a>
           <a href={site.privacy}>Privacy</a>
+          <a href="/llms.txt">For agents</a>
         </div>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} dEdge</span>

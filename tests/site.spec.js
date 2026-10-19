@@ -203,3 +203,23 @@ test("analytics exceptions do not block app navigation", async ({ page }) => {
   await page.locator('a[href="https://app.dedge.pro/"]').first().click();
   await expect(page).toHaveURL("https://app.dedge.pro/");
 });
+
+test("agent index and Markdown pages are served without JavaScript", async ({
+  request,
+}) => {
+  const index = await request.get("/llms.txt");
+  expect(index.status()).toBe(200);
+  const text = await index.text();
+  const urls = [
+    ...text.matchAll(/\]\((https:\/\/dedge\.pro\/[^)]*index\.md)\)/g),
+  ].map((match) => new URL(match[1]).pathname);
+  expect(new Set(urls).size).toBe(25);
+  for (const url of urls) {
+    const response = await request.get(url);
+    expect(response.status(), url).toBe(200);
+    expect(await response.text()).toContain("Source: https://dedge.pro/");
+  }
+  const full = await request.get("/llms-full.txt");
+  expect(full.status()).toBe(200);
+  expect(await full.text()).toContain("Partial control");
+});

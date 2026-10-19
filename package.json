@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/metadata.mjs && next build --webpack",
+    "build": "node scripts/metadata.mjs && next build --webpack && node scripts/agent-content.mjs",
     "start": "python3 -m http.server 3000 --directory out",
     "test:export": "node scripts/check-export.mjs",
     "test:browser": "playwright test"
@@ -27,6 +27,8 @@
     "postcss": "^8.4.45",
     "prettier": "^3.9.10",
     "tailwindcss": "^3.4.11",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2",
     "typescript": "^5.9.3"
   },
   "engines": {

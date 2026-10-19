@@ -72,3 +72,66 @@ assert(fs.existsSync("out/.nojekyll"));
 console.log(
   `Export verified: ${routes.length} public routes + 404, links, assets, anchors, canonicals and structured data.`,
 );
+
+const llms = fs.readFileSync("out/llms.txt", "utf8");
+const full = fs.readFileSync("out/llms-full.txt", "utf8");
+assert(llms.startsWith("# dEdge\n"));
+assert(llms.length < 16000, "Agent index should stay concise");
+for (const route of routes) {
+  const file = path.join("out", route, "index.md");
+  assert(fs.existsSync(file), `Missing Markdown for ${route}`);
+  const markdown = fs.readFileSync(file, "utf8");
+  const $ = load(
+    fs.readFileSync(path.join("out", route, "index.html"), "utf8"),
+  );
+  const url = `https://dedge.pro${route}index.md`;
+  assert.equal(
+    $('link[rel=alternate][type="text/markdown"]').attr("href"),
+    url,
+  );
+  assert.equal(
+    $("link[rel=describedby]").attr("href"),
+    "https://dedge.pro/llms.txt",
+  );
+  assert(llms.includes(`](${url})`), `Page absent from agent index: ${route}`);
+  assert(full.includes(markdown), `Page absent from full text: ${route}`);
+  assert(markdown.includes(`Source: https://dedge.pro${route}\n`));
+  assert(!/<script|__NEXT_DATA__|elementor|googletagmanager/.test(markdown));
+  // The conversion must retain every substantive paragraph, FAQ answer and table cell.
+  const text = load(
+    fs.readFileSync(path.join("out", route, "index.html"), "utf8"),
+  );
+  text(
+    "main .toc, main form, main [aria-hidden=true], main .guide-art",
+  ).remove();
+  const normalize = (s) => s.replace(/[^\p{L}\p{N}]/gu, "").toLowerCase();
+  const normalized = normalize(
+    markdown.replace(/!?\[([^\]]*)\]\([^)]*\)/g, "$1"),
+  );
+  for (const el of text("main p, main td, main th").toArray()) {
+    const content = normalize(text(el).text());
+    if (content.length > 15)
+      assert(
+        normalized.includes(content),
+        `Lost text on ${route}: ${text(el).text()}`,
+      );
+  }
+  for (const match of markdown.matchAll(
+    /\]\((https:\/\/dedge\.pro\/[^\s)]*)\)/g,
+  )) {
+    const target = new URL(match[1]);
+    assert(
+      fs.existsSync(path.join("out", decodeURIComponent(target.pathname))),
+      `Missing Markdown destination: ${target}`,
+    );
+  }
+}
+assert(
+  fs.readFileSync("out/index.md", "utf8").includes("Is the web app free?"),
+);
+assert(
+  fs.readFileSync("out/index.md", "utf8").includes("https://app.dedge.pro/go"),
+);
+console.log(
+  `Agent content verified: index discovery, ${routes.length} Markdown pages, complete text preservation and local destinations.`,
+);

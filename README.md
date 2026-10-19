@@ -22,6 +22,7 @@ npm start
 - `scripts/migrate.py`: offline importer for the WordPress REST posts inventory (`?_embed&per_page=100`); requires Python BeautifulSoup. Follow with `scripts/editorial.py` and `scripts/download-assets.py`. Review any regenerated content before committing. Normal builds do not run migration.
 - `content/editorial-changes.json`: targeted wording corrections. Original slugs are retained even when their titles differ.
 - `scripts/metadata.mjs`: deterministic sitemap and robots generation before build.
+- `scripts/agent-content.mjs`: generates `/llms.txt`, `/llms-full.txt` and Markdown versions of all 25 public pages from exported HTML. See [agent content](docs/AGENT-CONTENT.md).
 - `scripts/check-export.mjs`: route, link, image, anchor, canonical and structured-data crawl.
 - `tests/site.spec.js`: browser acceptance checks and 375/768/1440px screenshots.
 
