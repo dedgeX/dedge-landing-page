@@ -1,0 +1,115 @@
+[
+  {
+    "url": "https://app.dedge.pro/",
+    "status": "000",
+    "error": "curl: (28) Operation timed out after 30000 milliseconds with 0 bytes received",
+    "retryStatus": "200",
+    "retryNote": "Succeeded on follow-up after initial timeout."
+  },
+  {
+    "url": "https://app.dedge.pro/contact",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://app.dedge.pro/developers",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://app.dedge.pro/pricing",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://app.dedge.pro/privacy",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://app.dedge.pro/trending",
+    "status": "000",
+    "error": "curl: (28) Connection timed out after 30000 milliseconds",
+    "retryNote": "Follow-up remained pending and was stopped; recheck availability at cutover."
+  },
+  {
+    "url": "https://app.dedge.pro/wallets",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://dedge-v2.gitbook.io/dedge-docs/getting-started/understanding-the-metrics",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*gu5fJaQQzJYzZIuOooHAkQ.jpeg",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://pump.fun",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://t.me/TradeWiz_Solbot?start=r-26BH26XA23",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://t.me/dEdge_solana_bot?start=academy",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://t.me/dEdge_solana_bot?start=medium",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://t.me/dEdge_solana_bot?start=website",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://t.me/hector_trojanbot?start=r-im7777",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://t.me/sol_dbot?start=ref_38262771",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://tradewiz.gitbook.io/tradewiz/copy-trading",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://www.binance.com/en/square/post/20365135636489",
+    "status": "202",
+    "error": ""
+  },
+  {
+    "url": "https://www.britannica.com/money/centralized-vs-decentralized-crypto",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://www.helius.dev/blog/how-to-land-transactions-on-solana",
+    "status": "200",
+    "error": ""
+  },
+  {
+    "url": "https://www.tokenmetrics.com/blog/dex-vs-cex",
+    "status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://x.com/dEdge_Solana",
+    "status": "200",
+    "error": ""
+  }
+]

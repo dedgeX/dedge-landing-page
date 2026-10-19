@@ -1,24 +1,12 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
-
-class MyDocument extends Document {
-  render() {
-    return (
-      <Html lang="en">
-        <Head>
-          <link rel="alternate" hrefLang="x-default" href="https://dedge.pro" />
-          <link rel="alternate" hrefLang="en" href="https://dedge.pro" />
-        </Head>
-        <body>
-          <noscript>
-            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7DQB6MB"
-            height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe>
-          </noscript>
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
-    )
-  }
+import { Html, Head, Main, NextScript } from "next/document";
+export default function Document() {
+  return (
+    <Html lang="en">
+      <Head />
+      <body>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  );
 }
-
-export default MyDocument;

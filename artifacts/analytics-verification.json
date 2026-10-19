@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-19T22:34:29.173Z",
+  "events": [
+    {
+      "name": "page_view",
+      "destination": "G-KWDXQWGFJG"
+    },
+    {
+      "name": "form_start",
+      "destination": "G-KWDXQWGFJG"
+    },
+    {
+      "name": "wallet_submit",
+      "destination": "G-KWDXQWGFJG"
+    },
+    {
+      "name": "outbound_app",
+      "destination": "G-KWDXQWGFJG"
+    },
+    {
+      "name": "outbound_telegram",
+      "destination": "G-KWDXQWGFJG"
+    }
+  ],
+  "walletValuesAbsent": true,
+  "collectionIntercepted": true
+}

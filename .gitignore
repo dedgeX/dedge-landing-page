@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local verification output
+/test-results/
+/artifacts/*.png
+/artifacts/browser-report/

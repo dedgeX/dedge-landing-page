@@ -1,0 +1,87 @@
+[
+  {
+    "path": "/copy-trading-on-solana-with-dedge-tradewiz/",
+    "before": "guarantees your exit is confirmed immediately, even in congested blocks",
+    "after": "can improve the chance of timely confirmation, but does not guarantee execution in congested blocks"
+  },
+  {
+    "path": "/copy-trading-on-solana-with-dedge-dbot/",
+    "before": "Copy their trades instantly with Trojan Bot.",
+    "after": "Evaluate copying with Trojan Bot, a separate execution tool."
+  },
+  {
+    "path": "/copy-trading-on-solana-with-dedge-dbot/",
+    "before": "With tools like Wallet Finder , Curated Wallets , and Filtered Wallets , dEdge helps you identify the top 1% of the most profitable wallets on-chain through real-time performance analytics and data-driven metrics.",
+    "after": "Wallet Finder, Curated Wallets and Filtered Wallets help you identify wallets to investigate using historical on-chain metrics. These are research leads, not a ranking that predicts future returns."
+  },
+  {
+    "path": "/copy-trading-on-solana-with-dedge-dbot/",
+    "before": "With tools like Wallet Finder , Curated Wallets , and Filtered Wallets , dEdge helps you identify the top 1% of profitable traders across Solana — before you decide who to copy.",
+    "after": "Wallet Finder, Curated Wallets and Filtered Wallets help you identify wallets to investigate using historical on-chain metrics. These are research leads, not a ranking that predicts future returns."
+  },
+  {
+    "path": "/ia-insights-how-dedge-is-changing-the-analysis-game-2/",
+    "before": "dEdge Wallet Finder helps you discover the traders who are consistently profitable.",
+    "after": "dEdge Wallet Finder helps you discover wallets with historical trading results to investigate."
+  },
+  {
+    "path": "/ia-insights-how-dedge-is-changing-the-analysis-game/",
+    "before": "Removes bias",
+    "after": "Adds another perspective"
+  },
+  {
+    "path": "/ia-insights-how-dedge-is-changing-the-analysis-game/",
+    "before": "AI evaluates wallets based on data, not hype.",
+    "after": "AI summarizes the available data, but can still make errors or reflect bias."
+  },
+  {
+    "path": "/curated-wallets-data-backed-shortcuts-to-profitable-traders/",
+    "before": "(up to 5 in the free plan)",
+    "after": "(subject to the current plan limits shown in the bot)"
+  },
+  {
+    "path": "/wallet-finder-discover-the-most-profitable-traders-on-solana-2/",
+    "before": "100% copyable from a bot standpoint",
+    "after": "more practical to evaluate for copying, without guaranteeing matching execution"
+  },
+  {
+    "path": "/wallet-finder-discover-the-most-profitable-traders-on-solana-2/",
+    "before": "Skip 90% of irrelevant wallets.",
+    "after": "Narrow the wallets you review using explicit criteria."
+  },
+  {
+    "path": "/wallet-finder-discover-the-most-profitable-traders-on-solana-2/",
+    "before": "Follow wallets that already proved reliability.",
+    "after": "Review historical consistency without assuming future reliability."
+  },
+  {
+    "path": "/wallet-finder-discover-the-most-profitable-traders-on-solana/",
+    "before": "It’s like having access to the list of runners who always finish on the podium.",
+    "after": "Treat the list as a starting point for research, not a prediction of future winners."
+  },
+  {
+    "path": "/wallet-finder-discover-the-most-profitable-traders-on-solana/",
+    "before": "who are catching pumps before the crowd",
+    "after": "with historical activity worth examining"
+  },
+  {
+    "path": "/wallet-finder-discover-the-most-profitable-traders-on-solana/",
+    "before": "Think of it as your radar for opportunities — a tool that scans the Solana blockchain to spot the wallets that really matter: the ones that are consistently profitable .",
+    "after": "Think of Wallet Finder as a starting point for research: a way to discover Solana wallets and inspect their historical trading activity."
+  },
+  {
+    "path": "/wallet-finder-discover-the-most-profitable-traders-on-solana/",
+    "before": "Spot trading patterns of consistently profitable traders.",
+    "after": "Explore trading patterns and their historical outcomes."
+  },
+  {
+    "path": "/what-is-jito-bloxroute-and-swqos/",
+    "before": "Every millisecond gained means tighter slippage, cleaner entries, and more profitable exits.",
+    "after": "Lower latency can affect execution, but does not ensure a better price or a profitable exit."
+  },
+  {
+    "path": "/what-is-jito-bloxroute-and-swqos/",
+    "before": "guaranteed access, even during peak chaos",
+    "after": "priority access under congestion, without guaranteed transaction inclusion"
+  }
+]
