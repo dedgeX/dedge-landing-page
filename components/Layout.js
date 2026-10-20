@@ -85,7 +85,8 @@ export default function Layout({
         <meta property="og:type" content={article ? "article" : "website"} />
         <meta property="og:image" content={site.origin + "/social.png"} />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" href="/favicon.ico?v=original" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico?v=current" sizes="any" />
+        <link rel="icon" href="/favicon.svg?v=current" type="image/svg+xml" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -122,8 +123,8 @@ export default function Layout({
               className="brand-logo"
               src="/images/dedge-brand.svg"
               alt="dEdge logo"
-              width="34"
-              height="60"
+              width="44"
+              height="44"
             />
             dEdge
           </a>
@@ -163,8 +164,8 @@ export default function Layout({
               className="brand-logo"
               src="/images/dedge-brand.svg"
               alt="dEdge logo"
-              width="34"
-              height="60"
+              width="44"
+              height="44"
             />
             dEdge
           </a>
