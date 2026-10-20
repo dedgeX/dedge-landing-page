@@ -85,7 +85,7 @@ export default function Layout({
         <meta property="og:type" content={article ? "article" : "website"} />
         <meta property="og:image" content={site.origin + "/social.png"} />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico?v=original" type="image/x-icon" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -118,10 +118,14 @@ export default function Layout({
       <header className="header">
         <div className="shell nav">
           <a href="/" className="brand" aria-label="dEdge home">
-            <span className="brand-icon">
-              d<span>↗</span>
-            </span>
-            dEdge<span className="brand-dot">.</span>
+            <img
+              className="brand-logo"
+              src="/images/dedge-brand.svg"
+              alt="dEdge logo"
+              width="34"
+              height="60"
+            />
+            dEdge
           </a>
           <nav className="desktop-nav" aria-label="Main navigation">
             {navigation.map(([label, href]) => (
@@ -154,8 +158,15 @@ export default function Layout({
       <main id="main">{children}</main>
       <footer className="shell footer">
         <div>
-          <a href="/" className="brand">
-            dEdge<span className="brand-dot">.</span>
+          <a href="/" className="brand" aria-label="dEdge home">
+            <img
+              className="brand-logo"
+              src="/images/dedge-brand.svg"
+              alt="dEdge logo"
+              width="34"
+              height="60"
+            />
+            dEdge
           </a>
           <p>More context. Better questions.</p>
           <p className="fine">Solana wallet research, made clearer.</p>

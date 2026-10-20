@@ -115,24 +115,11 @@ img {
   font-weight: 700;
   letter-spacing: -1.5px;
 }
-.brand-icon {
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 33px;
-  height: 36px;
-  border: 2px solid var(--green);
-  color: var(--green);
-  border-radius: 7px;
-  margin-right: 10px;
-  transform: skew(-8deg);
-}
-.brand-icon span {
-  font-size: 18px;
-}
-.brand-dot {
-  color: var(--green);
+.brand-logo {
+  display: block;
+  width: 34px;
+  height: 60px;
+  margin-right: 12px;
 }
 .desktop-nav {
   display: flex;
@@ -1097,11 +1084,6 @@ img {
   }
   .brand {
     font-size: 26px;
-  }
-  .brand-icon {
-    width: 28px;
-    height: 30px;
-    font-size: 20px;
   }
   .desktop-nav {
     display: none;
