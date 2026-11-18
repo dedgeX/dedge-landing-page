@@ -217,7 +217,7 @@ export default function Home() {
           <ul className="check-list">
             <li>Explore the detail behind a wallet’s activity</li>
             <li>Find wallets that fit your research criteria</li>
-            <li>Track wallets and review trade-close alerts</li>
+            <li>Track up to 5 wallets free and get an alert when one closes a trade</li>
           </ul>
           <Action href={site.telegram}>
             Explore Telegram <span>↗</span>
@@ -245,8 +245,9 @@ export default function Home() {
             <p className="eyebrow">TELEGRAM / FREE + PAID PLANS</p>
             <h3>More depth. More room to explore.</h3>
             <p>
-              Paid plans increase analysis and discovery limits and include full
-              trade-close alerts for tracked wallets.
+              Free: track up to 5 wallets and get 3 trade-close alerts a day.
+              Paid plans raise analysis and discovery limits and send up to 20
+              alerts a day.
             </p>
             <Action href={site.pricing} className="button secondary">
               View current plans ↗
